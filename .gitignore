@@ -1,0 +1,95 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Docker ###
+.docker/
+
+### NetBeans template
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Linux template
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### Windows rules
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+### LibreOffice template
+.~lock.*#
+
+### MicrosoftOffice rules
+*.tmp
+~$*.doc*
+~$*.xls*
+*.xlk
+~$*.ppt*
+*.~vsd*
+
+### Archive rules (git has its own compression)
+*.7z
+*.rar
+*.zip
+*.gz
+*.bzip
+*.bz2
+*.xz
+*.lzma
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.nar
+*.tar.gz
+
+### Java rules
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+### Gradle ###
+.gradle
+build/
+/gradlew
+/gradlew.bat
+/gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### ### ###
+/logs/
+*.log
+*.logs
