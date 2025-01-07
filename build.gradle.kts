@@ -1,3 +1,3 @@
 allprojects {
-	group = "ru.white_logic.jsoc"
+    group = "ru.white_logic.jsoc"
 }
